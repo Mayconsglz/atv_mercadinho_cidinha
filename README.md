@@ -126,3 +126,8 @@ app.listen(porta, () => {
 })
 ```
 * Copiem estes dados para a realização da atividade (coloquem-os no "server.js")
+
+# Atividade
+Com base nesta revisão e o que já foi visto em outra aula, faça:
+
+* Mudem este código e criem para este humilde mercado um meio de calcular o valor total da compra feita pelo cliente
