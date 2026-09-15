@@ -104,6 +104,15 @@ const mostrarCompras = (req, res) => {
     res.send(compras)
 }
 
+const novaCompra = (req, res) => {
+    if(req.body){
+        res.send("Compra recebida, e em separação")
+        compras.push(req.body)
+    }else{
+        res.send("Ocorreu um erro ao receber o pedido de compra")
+    }
+}
+
 const app = express()
 app.use(express.urlencoded({extended:true}))
 const porta = 3000
