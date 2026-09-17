@@ -132,5 +132,5 @@ app.listen(porta, () => {
     console.log(`Cliente: http://127.0.0.1:5500/cliente/`)
     console.log(`Servidor: http://127.0.0.1:${porta}`)
 })
-
+```
 * Copiem este código caso tenham se perdido na explicação
