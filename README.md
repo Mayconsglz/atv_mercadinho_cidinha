@@ -110,7 +110,7 @@ const novaCompra = (req, res) => {
     if(req.body){
         res.send("Compra recebida, e em separação")
         compras.push(req.body)
-    }else{
+    }else{ 
         res.send("Ocorreu um erro ao receber o pedido de compra")
     }
 }
